@@ -1,6 +1,6 @@
 {
   "name": "nanocyte-node-less-than",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "less than node for nanocyte",
   "main": "index.js",
   "directories": {

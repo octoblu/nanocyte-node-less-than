@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-- '0.11'
 - '0.10'
 deploy:
   provider: npm
@@ -9,3 +8,4 @@ deploy:
     secure: BvvbGnBnt5zJXXjmsgEC/2B2sZ52UXu5gatGHov0zg4g5iWAv87UnDgfi7gDIVh088ResGTotzWQnD8+1Us/lQlwHx4xdY9D6LWEmecKKyrxvJKLmbAG6Vj6nsGTiXGYMxiTuQyV3MUJYLvxoGcFb7VwFqpZn914htRKlvW0x4HzTi77yDjeF25FvALRtmgYL+t54C1uEgV2SZW5U35mapqNEgHbSFmkXk9HZNYk0xU7SKoK2hs2ksmXjeR3+rozXoAfRwYfLhKJI62z59NTIZUs3hUFyuN+qudPu6o8K/gAM3hTPYljY1NRPIFOODvDfCx6tyXrl6uRqUYU1VNHLjRcrg0hR8gR2Ise7/h4aKgHEcZ0xuYYIEojT4amc0iYtThOV2gywBRN/Drzhwshf8b30GvGz09NWhRKjfmetxj1PSp1HEqfOJeSwG1Ue5896xpGZYmoRObgjjK4rGXExMZXrYOiYor0mPI1ixtu37+bLue4tcANG4YGGVKWK/Xpd4oRuohUb4zZn/cWwAtZRwpdrqOqHdS0mNHevk9Syiotm74cgaYv7J67ccQN3pIfgqeanwW9OfwdlSf6xhkyt2vNbjBqgEzN8DnVI3mwqNwb/Go3LEHDioMxznxjZXIibL3GZ2E2cwHDAs1UYKbjf8CuRVbHu3o+GB03l36/yto=
   on:
     tags: true
+    all_branches: true
